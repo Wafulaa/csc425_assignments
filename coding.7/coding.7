@@ -1,4 +1,4 @@
-#include<stdio.h>
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -15,8 +15,10 @@ int main(int argc, char *argv[])
     printf("pid: %d\n", getpid());
 
     int memory = atoi(argv[1]) * 1024 * 1024;
+    
     int length = (int)(memory / sizeof(int));
     int runTime = atoi(argv[2]);
+    
     int *arr = malloc(memory);
     clock_t begin = clock();
     double time_spent;
@@ -32,3 +34,6 @@ int main(int argc, char *argv[])
 
     free(arr);
     return 0;
+    
+    citations
+    I did reffer to this link for help to understand the assignement   https://github.com/arush1june/OSTEP-Solutions/blob/master/Chapter%2013%20-%20Address%20Spaces/memory-user.c
