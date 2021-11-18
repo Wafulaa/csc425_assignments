@@ -1,12 +1,9 @@
 /*********************************************
 Your name: Anthony W Wafula
-Question 2: <your answer>
-Question 3: https://github.com/Wafulaa/csc425_assignments/blob/master/coding.7/coding.7:
-Question 4: <your answer>
-Question 5: <your answer>
-Question 7: <your answer>
-Question 8: <your answer>
-
+Question 2: yes the output maches my expectation we have  4095 memory in the swap of which 4025 is free
+Question 3: (done in codding.7 attached link) https://github.com/Wafulaa/csc425_assignments/blob/master/coding.7/coding.7
+Question 4: amount of memory given is added up when the memory_user is run. when the programmis killed used memeory decrease by amount of MB given to the argument. swapp is filled after the ram is almost full when large amounts of mmeory are given
+Question 5: reuquired as to read the PMAP manual which I did read(no activity for it)
+Question 7: there are unnonmousy memories not mathed to the and file or programm beside stuck and heap
+Question 8: Yes the output from Pmap matches my expectations where all memomry segments have the same size and as the output increases as we increase the heap allocation
 *********************************************/
-/*********************************************
-
